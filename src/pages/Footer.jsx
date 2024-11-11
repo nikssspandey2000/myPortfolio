@@ -7,13 +7,16 @@ import {
 
 import { SiGmail } from "react-icons/si";
 
+import Logo from '../assets/images/N.png'
+
+
 function Footer() {
   return (
     <footer>
       <div className="flex flex-row items-center justify-center bg-slate-500 text-green-900/80 py-10 lg:pl-16 shadow-t-sm shadow-inner shadow-black/15 font-montserrat">
         <Link to="/" className="justify-center m-2 hidden lg:flex ">
           <img
-            src="/src/assets/images/N.png"
+            src={Logo}
             alt="Logo" className="w-[75px] h-[75px]  rounded-full"/>
         </Link>
         <div className="flex flex-col md:flex-row w-[85%] justify-evenly items-center">
