@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Profilpic from "../assets/images/profilepic.jpg"
 
 const links = [
   { name: 'Articles', href: '/articles' },
@@ -15,9 +16,10 @@ const stats = [
 export default function About() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      {/* About background image */}
       <img
         alt=""
-        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+        src="https://img.freepik.com/free-photo/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland_181624-24209.jpg?t=st=1731349319~exp=1731352919~hmac=9f5b75f77f5f6d87c1d0ddbd8e97bc41b717ce01c40caadf3096d36554b85baa&w=1480"
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
       <div
@@ -48,7 +50,7 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">More About Me</h2>
-          <p className="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">
+          <p className="mt-8 text-pretty text-lg font-medium text-red-100 sm:text-xl/8">
           I'm currently working at Bidur Associates as a CA associate. I've passed my cap II CA exam and I'm preparing for my next upcoming exam.
           </p>
         </div>
@@ -71,8 +73,10 @@ export default function About() {
         </div>
         </div>
 
-        <div className="mx-auto px-6 lg:px-8 overflow-hidden w-[300px] md:w-[450px]">
-          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="pandey" className="w-full" style={{ borderRadius: '26% 74% 70% 30% / 27% 66% 34% 73%' }} />
+        <div className="mx-auto px-6 lg:px-8 overflow-hidden w-[300px] md:w-[400px]">
+          {/* profile pic image */}
+          
+          <img src={Profilpic} alt="pandey" className="w-full object-cover scale-y-120" style={{ borderRadius: '26% 74% 70% 30% / 27% 66% 34% 73%' }} />
         </div>
       </section>
     </div>

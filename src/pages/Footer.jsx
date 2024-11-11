@@ -5,6 +5,8 @@ import {
   PiInstagramLogoLight,
 } from "react-icons/pi";
 
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 
 import Logo from '../assets/images/N.png'
@@ -79,6 +81,31 @@ function Footer() {
               >
                 <span className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform">
                   <SiGmail size={25} />
+                </span>
+              </button>
+              <button
+                className="middle none relative h-10 max-h-[18px] w-10 max-w-[18px] p-5 rounded-full text-center font-sans text-xs font-medium uppercase text-red-600 shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none hover:scale-105 bg-[#ffffffdc]"
+                type="button"
+                data-ripple-light="true"
+                onClick={() =>
+                  window.open("https://www.linkedin.com/in/nikesh-pandey-024506144/")
+                }
+              >
+                <span className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform">
+                  <FaLinkedin size={30} />
+                </span>
+              </button>
+
+              <button
+                className="middle none relative h-10 max-h-[18px] w-10 max-w-[18px] p-5 rounded-full text-center font-sans text-xs font-medium uppercase text-red-600 shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none hover:scale-105 bg-[#ffffffdc]"
+                type="button"
+                data-ripple-light="true"
+                onClick={() =>
+                  window.open("https://github.com/nikssspandey2000")
+                }
+              >
+                <span className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform">
+                  <FaSquareGithub size={30} />
                 </span>
               </button>
             </div>
