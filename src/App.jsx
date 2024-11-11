@@ -1,17 +1,17 @@
-import React from 'react'
-import { Footer, Header } from './pages'
-import { Outlet } from 'react-router-dom'
+import React from 'react';
+import { Footer, Header } from './pages';
+import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
-    <section>
-       <Header />
-       <main className='min-h-screen'>
-          <Outlet />
-       </main>
-       <Footer/>
+    <section className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-1 h-auto">
+        <Outlet />
+      </main>
+      <Footer />
     </section>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -6,7 +6,7 @@ const ArticleCard = () => {
   const excerptLength = 100; 
 
   return (
-    <section className='grid grid-cols-3 gap-4 place-items-center'>
+    <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center'>
       {myarticles.map((article) => (
         <ArticleExcerpt key={article.id} article={article} excerptLength={excerptLength} />
       ))}
