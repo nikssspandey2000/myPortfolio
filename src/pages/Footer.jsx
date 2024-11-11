@@ -13,7 +13,9 @@ function Footer() {
       <div className="flex flex-row items-center justify-between bg-slate-500 text-green-900/80 py-4 lg:pl-16 shadow-t-sm shadow-inner shadow-black/15 font-montserrat">
         <Link to="/" className="flex justify-center m-2">
           {/* <Logo className="  object-contain p-4" /> */}
-          Logo here
+          <img
+            src="/src/assets/images/N.png"
+            alt="Logo" className="w-[75px] h-[75px] rounded-full"/>
         </Link>
         <div className="flex flex-col md:flex-row w-[85%] justify-evenly items-center">
           <div className="flex flex-col justify-center items-center">
