@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 const links = [
   { name: 'Articles', href: '/articles' },
-  { name: 'Work Experience', href: '#' },
-  { name: 'Contact Me', href: '#' },
+  { name: 'Work Experience', href: '/qualifications' },
+  { name: 'Contact Me', href: 'mailto:nikssspandey2000@example.com' },
 ]
 const stats = [
   { name: 'Articles', value: '2' },
@@ -44,7 +44,8 @@ export default function About() {
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
         />
       </div>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section className="flex flex-col-reverse gap-4 lg:flex-row justify-around">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">More About Me</h2>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">
@@ -68,7 +69,12 @@ export default function About() {
             ))}
           </dl>
         </div>
-      </div>
+        </div>
+
+        <div className="mx-auto px-6 lg:px-8 overflow-hidden w-[300px] md:w-[450px]">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="pandey" className="w-full" style={{ borderRadius: '26% 74% 70% 30% / 27% 66% 34% 73%' }} />
+        </div>
+      </section>
     </div>
   )
 }
