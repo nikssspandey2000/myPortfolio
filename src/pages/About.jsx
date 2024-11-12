@@ -76,7 +76,7 @@ export default function About() {
         <div className="mx-auto px-6 lg:px-8 overflow-hidden w-[300px] md:w-[400px]">
           {/* profile pic image */}
           
-          <img src={Profilpic} alt="pandey" className="w-full object-cover scale-y-120" style={{ borderRadius: '26% 74% 70% 30% / 27% 66% 34% 73%' }} />
+          <img src={Profilpic} alt="pandey" className="w-full object-cover scale-y-120" style={{ borderRadius: '42% 58% 69% 31% / 45% 21% 79% 55% ' }} />
         </div>
       </section>
     </div>

@@ -25,8 +25,8 @@ const services = [
 ];
 const Services = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold font-mono mb-4 text-center">My Services</h1>
+    <div className="p-8">
+      <h1 className="text-center text-2xl font-semibold font-mono">My Services 🪄</h1>
       <ToggleService items={services} />
     </div>
   );
