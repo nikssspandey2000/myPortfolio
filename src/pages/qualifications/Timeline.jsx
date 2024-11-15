@@ -27,8 +27,9 @@ const Timeline = () => {
             Bidur Associates
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+          NFRS 9 Implementation: Assisted six major banks in implementing NFRS 9, developing PD, LGD, and EAD models, and providing training.
+Financial and Audit Services: Conducted audits, prepared NFRS-compliant financial statements, and managed compliance reporting for banks, financial institutions, and corporate entities.
+Special Projects: Managed disposal of expired products, VAT/excise claims, revenue audits, consolidated financials for F1Soft Group, and expense investigations for Mirmire Laghubitta.
           </p>
         </VerticalTimelineElement>
 

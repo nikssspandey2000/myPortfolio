@@ -4,23 +4,23 @@ import ToggleService from "./accordion/ToggleService";
 const services = [
   {
     id: 1,
-    title: "Service title 1",
-    content: "Service content ",
+    title: "Expected Credit Loss",
+    content: "Expected Credit Loss (ECL) is a forward-looking measure of the potential losses a financial institution may incur from its credit exposures. It is a fundamental component of the Nepal Financial Reporting Standards (NFRS) 9, which has been fully implemented and mandates entities to compute ECL to align with its principles. The adoption of NFRS 9 introduces significant changes to the way financial institutions assess and recognize credit losses.",
   },
   {
     id: 2,
-    title: "Service title 2",
-    content: "Service content ",
+    title: "NFRS based Financial Statement",
+    content: " ",
   },
   {
     id: 3,
-    title: "Service title 3",
-    content: "Service content ",
+    title: "Revenue Audit",
+    content: "",
   },
   {
     id: 4,
-    title: "Service title 4",
-    content: "Service content lorem ipsum lorpm ipsum",
+    title: "Due Deligence Audit",
+    content: "",
   },
 ];
 const Services = () => {
