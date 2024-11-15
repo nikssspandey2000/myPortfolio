@@ -17,11 +17,7 @@ export default function About() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       {/* About background image */}
-      <img
-        alt=""
-        src="https://img.freepik.com/free-photo/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland_181624-24209.jpg?t=st=1731349319~exp=1731352919~hmac=9f5b75f77f5f6d87c1d0ddbd8e97bc41b717ce01c40caadf3096d36554b85baa&w=1480"
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-      />
+
       <div
         aria-hidden="true"
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
