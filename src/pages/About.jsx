@@ -51,7 +51,11 @@ export default function About() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">More About Me</h2>
           <p className="mt-8 text-pretty text-lg font-medium text-red-100 sm:text-xl/8">
-          I'm currently working at Bidur Associates as a CA associate. I've passed my cap II CA exam and I'm preparing for my next upcoming exam.
+          I am a results-driven CA Finalist with extensive experience in financial consulting, audit, and regulatory compliance, including the implementation of NFRS 9 (Expected Credit Loss) frameworks for leading financial institutions. My expertise spans developing predictive credit models (PD, LGD, EAD), preparing NFRS-compliant financial statements, and conducting revenue audits and financial investigations.
+
+I thrive on managing complex data, streamlining financial reporting processes, and providing strategic insights that drive operational excellence. My role as a trusted consultant has enabled organizations to achieve compliance with regulatory frameworks while optimizing their financial performance.
+
+Passionate about leveraging technology in finance, I am also skilled in tools like Excel, Python, and MySQL, ensuring efficient and precise handling of data and analysis. With a commitment to continuous learning and growth, I aim to deliver impactful solutions that add value to stakeholders.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

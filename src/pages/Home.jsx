@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div className="bg-rose-100 md:min-h-screen">
-
+      
 
 
       <div className="relative isolate px-6 pt-8 lg:px-8">
@@ -14,6 +14,13 @@ const Home = () => {
         >
             
         </div>
+
+        {/* <img
+        alt=""
+        src="https://images.pexels.com/photos/935979/pexels-photo-935979.jpeg"
+        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+      /> */}
+
         <div className="mx-auto max-w-2xl py-14 sm:py-5 lg:py-12">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

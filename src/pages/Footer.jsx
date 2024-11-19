@@ -8,6 +8,7 @@ import {
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
+import { FaPhone } from "react-icons/fa";
 
 import Logo from '../assets/images/N.png'
 
@@ -108,6 +109,18 @@ function Footer() {
                   <FaSquareGithub size={30} />
                 </span>
               </button>
+
+              <button
+                className="middle none relative h-10 max-h-[18px] w-10 max-w-[18px] p-5 rounded-full text-center font-sans text-xs font-medium uppercase text-orange-500 shadow-md shadow-amber-500/20 transition-all hover:shadow-lg hover:shadow-amber-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none hover:scale-105 bg-[#ffffffdc]"
+                type="button"
+                data-ripple-light="true"
+                onClick={() => window.open("tel:+9779845835877")}
+              >
+                <span className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform">
+                  <FaPhone size={25} />
+                </span>
+              </button>
+
             </div>
           </div>
         </div>
