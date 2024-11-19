@@ -19,8 +19,8 @@ export default function About() {
       {/* About background image */}
       <img
         alt=""
-        src="https://img.freepik.com/free-photo/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland_181624-24209.jpg?t=st=1731349319~exp=1731352919~hmac=9f5b75f77f5f6d87c1d0ddbd8e97bc41b717ce01c40caadf3096d36554b85baa&w=1480"
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+        src="https://images.unsplash.com/photo-1724715060079-8ce6c4af6e09?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center filter grayscale-[30%] contrast-125 mix-blend-overlay"  
       />
       <div
         aria-hidden="true"
@@ -73,10 +73,10 @@ export default function About() {
         </div>
         </div>
 
-        <div className="mx-auto px-6 lg:px-8 overflow-hidden w-[300px] md:w-[400px]">
+        <div className="mx-auto px-6 lg:px-8 overflow-hidden w-[300px] md:w-[400px] hover:rotate-[-10deg] transition-all duration-300 ">
           {/* profile pic image */}
           
-          <img src={Profilpic} alt="pandey" className="w-full object-cover scale-y-120" style={{ borderRadius: '42% 58% 69% 31% / 45% 21% 79% 55% ' }} />
+          <img src={Profilpic} alt="pandey" className="w-full object-cover scale-y-120 drop-shadow-2xl" style={{ borderRadius: '42% 58% 69% 31% / 45% 21% 79% 55% ' }} />
         </div>
       </section>
     </div>

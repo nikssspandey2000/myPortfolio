@@ -15,7 +15,7 @@ import Logo from '../assets/images/N.png'
 function Footer() {
   return (
     <footer>
-      <div className="flex flex-row items-center justify-center bg-slate-500 text-green-900/80 py-10 lg:pl-16 shadow-t-sm shadow-inner shadow-black/15 font-montserrat">
+      <div className="flex flex-row items-center justify-center bg-slate-500 text-green-900/80 pt-2 pb-6 lg:pl-16 shadow-t-sm shadow-inner shadow-black/15 font-montserrat">
         <Link to="/" className="justify-center m-2 hidden lg:flex ">
           <img
             src={Logo}
