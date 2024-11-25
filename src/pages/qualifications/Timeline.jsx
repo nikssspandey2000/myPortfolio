@@ -1,5 +1,5 @@
 import React from "react";
-import { CiApple } from "react-icons/ci";
+import { CiAirportSign1, CiAlignTop, CiApple, CiMap } from "react-icons/ci";
 
 import {
   VerticalTimeline,
@@ -8,28 +8,64 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { FaSchool, FaBriefcase } from "react-icons/fa";
+import { FaSchool, FaBriefcase, FaAccessibleIcon } from "react-icons/fa";
 import { FaUserGraduate } from "react-icons/fa";
+import { Fa42Group } from "react-icons/fa6";
 
 const Timeline = () => {
   return (
     <>
       <VerticalTimeline lineColor="rgba(245, 151, 79, 0.52)">
-        <VerticalTimelineElement
+        
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023-Running"
+          iconStyle={{ background: "orange", color: "#fff" }}
+          icon={<FaUserGraduate />}
+        >
+          <h3 className="vertical-timeline-element-title">MBS</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Master In Business Studies
+          </h4>
+          <p>
+           Shankardev Campus 
+          </p>
+        </VerticalTimelineElement>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        {/* <VerticalTimelineElement
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="2011 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaBriefcase />}
-        >
-          <h3 className="vertical-timeline-element-title">Articleship</h3>
+        > */}
+
+        <VerticalTimelineElement
+          
+          className="vertical-timeline-element--work"
+          date="2019-Running"
+          
+          iconStyle={{ background: "orange", color: "#fff" }}
+          icon={<FaBriefcase />}
+        > 
+          <h3 className="vertical-timeline-element-title">Chartered Accountant</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Bidur Associates
+            
           </h4>
           <p>
-          NFRS 9 Implementation: Assisted six major banks in implementing NFRS 9, developing PD, LGD, and EAD models, and providing training.
-Financial and Audit Services: Conducted audits, prepared NFRS-compliant financial statements, and managed compliance reporting for banks, financial institutions, and corporate entities.
-Special Projects: Managed disposal of expired products, VAT/excise claims, revenue audits, consolidated financials for F1Soft Group, and expense investigations for Mirmire Laghubitta.
+          Institue of Chartered Accountant of Nepal
           </p>
         </VerticalTimelineElement>
 
@@ -41,11 +77,10 @@ Special Projects: Managed disposal of expired products, VAT/excise claims, reven
         >
           <h3 className="vertical-timeline-element-title">BBS</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Bachelor In Business Studies
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+           Divya Gyan College 
           </p>
         </VerticalTimelineElement>
 
@@ -57,9 +92,11 @@ Special Projects: Managed disposal of expired products, VAT/excise claims, reven
         >
           <h3 className="vertical-timeline-element-title">HSEB</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Universal College
+            
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>
+          Universal College 
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -69,9 +106,11 @@ Special Projects: Managed disposal of expired products, VAT/excise claims, reven
         >
           <h3 className="vertical-timeline-element-title">School</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Siddhasthali English Boarding Higher Secondary School
+            
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>
+          Siddhasthali English Boarding Higher Secondary School
+          </p>
         </VerticalTimelineElement>
 
         {/* <VerticalTimelineElement

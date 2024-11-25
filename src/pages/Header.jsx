@@ -13,7 +13,7 @@ const Header = () => {
           <NavLink className={({isActive})=>`${isActive? activeCSS : inactiveCSS} text-sm lg:text-lg `} to="/">Home</NavLink>
           <NavLink className={({isActive})=>`${isActive? activeCSS : inactiveCSS} text-sm lg:text-lg `} to="/about">About</NavLink>
           <NavLink className={({isActive})=>`${isActive? activeCSS : inactiveCSS} text-sm lg:text-lg `} to="/articles">Article</NavLink>
-          <NavLink className={({isActive})=>`${isActive? activeCSS : inactiveCSS} text-sm lg:text-lg `} to="/qualifications">Education</NavLink>
+          <NavLink className={({isActive})=>`${isActive? activeCSS : inactiveCSS} text-sm lg:text-lg `} to="/qualifications">Qualification</NavLink>
           <NavLink className={({isActive})=>`${isActive? activeCSS : inactiveCSS} text-sm lg:text-lg `} to="/services">Services</NavLink>
         </div>
     </section>
