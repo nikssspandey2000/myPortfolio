@@ -36,7 +36,7 @@ const Home = () => {
               I am Nikesh Pandey pursuing CA. 
             </h1>
             <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-              I'm currently working at Bidur Associates as a CA associate. I've passed my cap II CA exam and I'm preparing for my upcoming exam.
+              I'm currently working at B.Lama and Associate as a CA associate. I've passed my cap II CA exam and I'm preparing for my upcoming exam.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-8">
               <Link
